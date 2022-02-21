@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Calculator app</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body data-theme = "light">
+  <div class="container">
+    <header>
+      <h1>calc</h1>
+      <div class="theme-container">
+        <h2>THEME</h2>
+        <div class="theme-switcher">
+          <input type="checkbox" id="switcher">
+          <label for="switcher"></label>
+        </div>
+      </div>
+    </header>
+
+    <div class="result">
+      <h2></h2>
+    </div>
+
+    <main>
+      <button class= "number" id="zero">0</button>
+      <button class= "number" id="one">1</button>
+      <button class= "number" id="two">2</button>
+      <button class= "number" id="three">3</button>
+      <button class= "number" id="four">4</button>
+      <button class= "number" id="five">5</button>
+      <button class= "number" id="six">6</button>
+      <button class= "number" id="seven">7</button>
+      <button class= "number" id="eight">8</button>
+      <button class= "number" id="nine">9</button>
+      <button class= "operation" id="+">+</button>
+      <button class= "operation" id="-">-</button>
+      <button class= "operation" id="/">/</button>
+      <button class= "operation" id="*">x</button>
+      <button id="dot">.</button>
+      <button id="delete">del</button>
+      <button id="reset">reset</button>
+      <button id="equals">=</button>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
